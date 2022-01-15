@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background:border-box;
+}
+*::selection{
+    background-color: #db6d13 ;
+    color: #fff;
+}
+body,html{
+  background-color: #131414;
+  
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: #100b1b;
+  border-radius: 4%;
+  height: 25%;
+  width: 25%;
+  transition: background-color 0.5s linear;
+
+}
+
+html::-webkit-scrollbar-thumb:hover{
+  background-color: #191329;
+  transition: background-color 0.5s linear;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: #06030e;
+}
+html::-webkit-scrollbar{
+  width: 12px;
+ 
+}
+
+.fontgoogle{
+    font-family: 'Spline Sans', sans-serif !important;
+}
+.alink{
+    transition: color 0.4s linear , margin-left 0.3s linear !important;
+}
+.alink:hover{
+    color: #944707 !important;
+    margin-left: 5px !important;
+}
+
+.activee{
+    color: #db6d13 !important;
+}
+
+/* ______________________________________________________________________________________________________________ */
+/* ________________________________________________________________________________________________________________ */
+
+/* ---------------------------------------------------------------top button-------------------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 4500;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgb(0, 0, 0);
+    opacity: .5;
+}
+.a_button_top.scrollh{
+    display: block;
+    transition: display 0.5s linear;
+}
+
+/* ----------------------------------------------------------------end top button--------------------------------- */
+
+/* 
+---------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------- nav bar --------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.fixed-top.scrolled{
+    background-color:#07040f !important;
+    transition:background-color 0.5s linear;
+}
+.text-p{
+    color: #cacaca;
+}
+.active{
+  color: #db6d13 !important;
+}
+/* 
+---------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------- nav bar --------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------- */
+/* ________________________________________________________________________________________________________________________|
+__________________________________________________________header____________________________________________________
+_______________________________________________________________________________________ */
+.header-bg{
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 110vh;
+}
+
+.blur-header{
+    background-color:#db6d135d;
+    height: 110vh;
+    padding-top: 20pc;
+    margin-top: -3pc;
+}
+.h1-header{
+    padding-top: 18pc;
+    font-size: 6.154rem;
+    line-height: 6.154rem;
+    font-weight: 800;
+    margin-bottom: 2.308rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000;
+}
+.butoon-header{
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+}
+.butoon-header:hover{
+    border-bottom: 1px solid #db6d13;
+    color:#db6d13 important;
+   
+    transition :border-bottom 0.5s linear  ;
+}
+.btn:hover {color:#db6d13 important;  transition :color 0.5s linear  ;}
+
+.icon-header{
+    font-size: 22px;
+    transition: color 0.5s linear;
+ }
+ .icon-header:hover{
+     color: rgba(255, 255, 255, 0.425) !important;
+ }
+ 
+/* ________________________________________________________________________________________________________________________|
+__________________________________________________________header____________________________________________________
+_______________________________________________________________________________________ */
+
+.bg-sec2{
+    background-color: #181f1f;
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------- contact --------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------- */
+.icon-contact{
+    float: left;
+    font-size: 30px;
+    color: #db6d13;
+    border-right: 0.5px solid #8b8b8b;
+}
+
+.bg-footer{
+    background-color: #000;
+}
+.text-span-services{
+    color: #db6d13 !important;
+}
+/* 
+---------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------- contact --------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 
+---------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------- loading --------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+#loading{
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5000;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+.content {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-section{
+    border-left: 4px solid #db6d13;
+}
+.img-nav{
+    width: 15%;
+}
